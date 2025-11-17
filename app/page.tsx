@@ -218,21 +218,21 @@ export default function Home() {
               className="group relative p-12 bg-gradient-to-br from-white/10 via-white/5 to-transparent rounded-3xl border-2 border-white/20 hover:border-blue-500/60 transition-all duration-700 hover:scale-110 hover:shadow-2xl hover:shadow-blue-500/30 overflow-hidden transform hover:-translate-y-2 cursor-pointer"
             >
               {/* Animated Background Layers */}
-              <div className="absolute inset-0 bg-gradient-to-br from-blue-500/0 via-blue-500/15 to-blue-500/25 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
-              <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(59,130,246,0.15),transparent_70%)] opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
-              <div className="absolute inset-0 bg-[conic-gradient(from_0deg_at_50%_50%,transparent_0deg,rgba(59,130,246,0.1)_90deg,transparent_180deg)] opacity-0 group-hover:opacity-100 group-hover:animate-spin-slow transition-opacity duration-700"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-blue-500/0 via-blue-500/15 to-blue-500/25 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"></div>
+              <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(59,130,246,0.15),transparent_70%)] opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"></div>
+              <div className="absolute inset-0 bg-[conic-gradient(from_0deg_at_50%_50%,transparent_0deg,rgba(59,130,246,0.1)_90deg,transparent_180deg)] opacity-0 group-hover:opacity-100 group-hover:animate-spin-slow transition-opacity duration-700 pointer-events-none"></div>
               
               {/* Shimmer Effect */}
-              <div className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-1000 bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
+              <div className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-1000 bg-gradient-to-r from-transparent via-white/10 to-transparent pointer-events-none"></div>
               
               <div className="relative z-10">
-                <div className="text-7xl mb-8 transform group-hover:scale-125 group-hover:rotate-12 transition-all duration-500 group-hover:drop-shadow-2xl group-hover:drop-shadow-blue-500/50">
+                <div className="text-7xl mb-8 transform group-hover:scale-125 group-hover:rotate-12 transition-all duration-500 group-hover:drop-shadow-2xl group-hover:drop-shadow-blue-500/50 pointer-events-none">
                   📱
                 </div>
-                <h3 className="text-3xl font-extrabold mb-4 bg-gradient-to-r from-white via-blue-200 to-blue-300 bg-clip-text text-transparent group-hover:from-blue-300 group-hover:via-blue-100 group-hover:to-white transition-all duration-500 drop-shadow-lg">
+                <h3 className="text-3xl font-extrabold mb-4 bg-gradient-to-r from-white via-blue-200 to-blue-300 bg-clip-text text-transparent group-hover:from-blue-300 group-hover:via-blue-100 group-hover:to-white transition-all duration-500 drop-shadow-lg pointer-events-none">
                   Telefon Satın Al
                 </h3>
-                <p className="text-gray-300 mb-8 text-base leading-relaxed group-hover:text-gray-200 transition-colors">En yeni modelleri keşfedin ve size en uygun telefonu bulun</p>
+                <p className="text-gray-300 mb-8 text-base leading-relaxed group-hover:text-gray-200 transition-colors pointer-events-none">En yeni modelleri keşfedin ve size en uygun telefonu bulun</p>
                 <div className="flex gap-4 justify-center">
                   <button
                     onClick={(e) => {
@@ -261,21 +261,21 @@ export default function Home() {
               className="group relative p-12 bg-gradient-to-br from-white/10 via-white/5 to-transparent rounded-3xl border-2 border-white/20 hover:border-green-500/60 transition-all duration-700 hover:scale-110 hover:shadow-2xl hover:shadow-green-500/30 overflow-hidden transform hover:-translate-y-2 cursor-pointer"
             >
               {/* Animated Background Layers */}
-              <div className="absolute inset-0 bg-gradient-to-br from-green-500/0 via-green-500/15 to-green-500/25 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
-              <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(34,197,94,0.15),transparent_70%)] opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
-              <div className="absolute inset-0 bg-[conic-gradient(from_0deg_at_50%_50%,transparent_0deg,rgba(34,197,94,0.1)_90deg,transparent_180deg)] opacity-0 group-hover:opacity-100 group-hover:animate-spin-slow transition-opacity duration-700"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-green-500/0 via-green-500/15 to-green-500/25 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"></div>
+              <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(34,197,94,0.15),transparent_70%)] opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"></div>
+              <div className="absolute inset-0 bg-[conic-gradient(from_0deg_at_50%_50%,transparent_0deg,rgba(34,197,94,0.1)_90deg,transparent_180deg)] opacity-0 group-hover:opacity-100 group-hover:animate-spin-slow transition-opacity duration-700 pointer-events-none"></div>
               
               {/* Shimmer Effect */}
-              <div className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-1000 bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
+              <div className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-1000 bg-gradient-to-r from-transparent via-white/10 to-transparent pointer-events-none"></div>
               
               <div className="relative z-10">
-                <div className="text-7xl mb-8 transform group-hover:scale-125 group-hover:rotate-12 transition-all duration-500 group-hover:drop-shadow-2xl group-hover:drop-shadow-green-500/50">
+                <div className="text-7xl mb-8 transform group-hover:scale-125 group-hover:rotate-12 transition-all duration-500 group-hover:drop-shadow-2xl group-hover:drop-shadow-green-500/50 pointer-events-none">
                   💰
                 </div>
-                <h3 className="text-3xl font-extrabold mb-4 bg-gradient-to-r from-white via-green-200 to-green-300 bg-clip-text text-transparent group-hover:from-green-300 group-hover:via-green-100 group-hover:to-white transition-all duration-500 drop-shadow-lg">
+                <h3 className="text-3xl font-extrabold mb-4 bg-gradient-to-r from-white via-green-200 to-green-300 bg-clip-text text-transparent group-hover:from-green-300 group-hover:via-green-100 group-hover:to-white transition-all duration-500 drop-shadow-lg pointer-events-none">
                   Telefon Sat
                 </h3>
-                <p className="text-gray-300 mb-8 text-base leading-relaxed group-hover:text-gray-200 transition-colors">Telefonunuzu değerinde satın ve en iyi fiyatı alın</p>
+                <p className="text-gray-300 mb-8 text-base leading-relaxed group-hover:text-gray-200 transition-colors pointer-events-none">Telefonunuzu değerinde satın ve en iyi fiyatı alın</p>
                 <div className="flex gap-4 justify-center">
                   <button
                     onClick={(e) => {
@@ -304,21 +304,21 @@ export default function Home() {
               className="group relative p-12 bg-gradient-to-br from-white/10 via-white/5 to-transparent rounded-3xl border-2 border-white/20 hover:border-purple-500/60 transition-all duration-700 hover:scale-110 hover:shadow-2xl hover:shadow-purple-500/30 overflow-hidden transform hover:-translate-y-2 cursor-pointer"
             >
               {/* Animated Background Layers */}
-              <div className="absolute inset-0 bg-gradient-to-br from-purple-500/0 via-purple-500/15 to-purple-500/25 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
-              <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(168,85,247,0.15),transparent_70%)] opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
-              <div className="absolute inset-0 bg-[conic-gradient(from_0deg_at_50%_50%,transparent_0deg,rgba(168,85,247,0.1)_90deg,transparent_180deg)] opacity-0 group-hover:opacity-100 group-hover:animate-spin-slow transition-opacity duration-700"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-purple-500/0 via-purple-500/15 to-purple-500/25 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"></div>
+              <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(168,85,247,0.15),transparent_70%)] opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"></div>
+              <div className="absolute inset-0 bg-[conic-gradient(from_0deg_at_50%_50%,transparent_0deg,rgba(168,85,247,0.1)_90deg,transparent_180deg)] opacity-0 group-hover:opacity-100 group-hover:animate-spin-slow transition-opacity duration-700 pointer-events-none"></div>
               
               {/* Shimmer Effect */}
-              <div className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-1000 bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
+              <div className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-1000 bg-gradient-to-r from-transparent via-white/10 to-transparent pointer-events-none"></div>
               
               <div className="relative z-10">
-                <div className="text-7xl mb-8 transform group-hover:scale-125 group-hover:rotate-12 transition-all duration-500 group-hover:drop-shadow-2xl group-hover:drop-shadow-purple-500/50">
+                <div className="text-7xl mb-8 transform group-hover:scale-125 group-hover:rotate-12 transition-all duration-500 group-hover:drop-shadow-2xl group-hover:drop-shadow-purple-500/50 pointer-events-none">
                   🔧
                 </div>
-                <h3 className="text-3xl font-extrabold mb-4 bg-gradient-to-r from-white via-purple-200 to-purple-300 bg-clip-text text-transparent group-hover:from-purple-300 group-hover:via-purple-100 group-hover:to-white transition-all duration-500 drop-shadow-lg">
+                <h3 className="text-3xl font-extrabold mb-4 bg-gradient-to-r from-white via-purple-200 to-purple-300 bg-clip-text text-transparent group-hover:from-purple-300 group-hover:via-purple-100 group-hover:to-white transition-all duration-500 drop-shadow-lg pointer-events-none">
                   Telefon Tamiri
                 </h3>
-                <p className="text-gray-300 mb-8 text-base leading-relaxed group-hover:text-gray-200 transition-colors">Profesyonel tamir hizmeti ile telefonunuzu yenileyin</p>
+                <p className="text-gray-300 mb-8 text-base leading-relaxed group-hover:text-gray-200 transition-colors pointer-events-none">Profesyonel tamir hizmeti ile telefonunuzu yenileyin</p>
                 <div className="flex gap-4 justify-center">
                   <button
                     onClick={(e) => {
